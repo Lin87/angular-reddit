@@ -26,6 +26,11 @@ form.form:after {
   border-radius: 5px;
 }
 
+.flag {
+  display: flex !important;
+  align-items: center;
+}
+
 .ui.grid.posts {
   margin-top: 2em;
 }
