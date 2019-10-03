@@ -29,6 +29,11 @@ form.form:after {
 .flag {
   display: flex !important;
   align-items: center;
+  justify-content: flex-end;
+}
+
+.flagged {
+  opacity: 0.25;
 }
 
 .ui.grid.posts {

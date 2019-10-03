@@ -4,6 +4,7 @@ export class Article {
     link: string;
     votes: number;
     role: string;
+    flagged: boolean;
 
     constructor(title: string, link: string, role: string, votes?: number) {
         this.title = title;

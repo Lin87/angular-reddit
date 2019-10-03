@@ -14,7 +14,7 @@
 
 </div>
 
-<div class="ten wide column">
+<div class="nine wide column">
 
     <a class="ui large header" href="{{ article.link }}">
         {{ article.title }}
@@ -42,11 +42,11 @@
 
 </div>
 
-<div *ngIf="article.role == 'administrator'" class="two wide column flag">
+<div *ngIf="article.role == 'administrator' && !article.flagged" class="three wide column flag">
 
     <div class="ui statistic">
 
-        <button (click)="flagArticle()" class="ui negative button fluid">flag</button>
+        <button (click)="flagArticle()" class="ui negative button fluid"><i class="thumbs down icon"></i>flag</button>
 
     </div>
 
